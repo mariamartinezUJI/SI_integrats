@@ -22,10 +22,13 @@
     });
   }
 
-  // 2. Botons «CV»: tots apunten a la mateixa carpeta de Drive (cfg.cvFolderUrl)
+  // 2. Botons «CV» (ocults fins que hi haja URL): tots apunten a la mateixa carpeta de Drive (cfg.cvFolderUrl)
   var cvUrl = (cfg.cvFolderUrl || "").trim();
+  if (cvUrl) {
+    Array.prototype.forEach.call(doc.querySelectorAll("[data-cv-note]"), function (el) { el.hidden = false; });
+  }
   Array.prototype.forEach.call(doc.querySelectorAll("[data-cv]"), function (el) {
-    if (!cvUrl) return; // es manté el marcador [PENDENT] del HTML
+    if (!cvUrl) return; // sense URL, els botons «CV» queden ocults
     var link = doc.createElement("a");
     link.className = "btn btn-outline";
     link.href = cvUrl;

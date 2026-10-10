@@ -38,11 +38,13 @@ Les referències de la bibliografia [3] i [4] (`fonts.html`) estan escrites de m
 - El nom «Mestral» és provisional. Cal comprovar que no coincidisca amb una marca registrada.
 - Frase d'aptituds: es basa en la formació del grau (bases de dades, sistemes d'informació, gestió de projectes). Confirmeu que reflecteix les assignatures cursades.
 
-## 4. Contingut pendent a la web (marcadors `[PENDENT: ...]`)
+## 4. Pendent (no es mostra a la web)
 
-Les targetes de «Qui som» només duen nom i botó «CV» (sense fitxa individual).
+La web no mostra cap marcador `[PENDENT]`. Les targetes de «Qui som» només duen nom i botó «CV» (sense fitxa individual).
 
-- Enllaç al CV (`cvFolderUrl` a `js/config.js`), compartit pels quatre botons «CV».
+- **Enllaç al CV** (`cvFolderUrl` a `js/config.js`): mentre estiga buit, els botons «CV» queden ocults.
+- **Normatives i restriccions** de les activitats 5 i 6 (horaris de càrrega i descàrrega, conservació de refrigerats): a concretar; a la web apareixen sense l'anotació.
+- **Llei 3/2004** (activitat 8): a verificar; a la web apareix sense l'anotació.
 
 ## 5. Entrada bibliogràfica opcional (no inclosa; cal confirmar-la)
 

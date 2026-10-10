@@ -47,7 +47,7 @@ window.SITE_CONFIG = {
 ```
 
 - El nom i el subtítol s'apliquen a la capçalera, al peu, al títol de cada pàgina i a les referències del text.
-- Mentre `cvFolderUrl` estiga buit, els botons «CV» mostren `[PENDENT]`. Quan hi poseu la URL, tots els botons apunten a aquesta carpeta.
+- Mentre `cvFolderUrl` estiga buit, els botons «CV» no es mostren. Quan hi poseu la URL, apareixen i tots apunten a aquesta carpeta.
 - Els fitxers HTML porten «Mestral» com a text per defecte (per si no es carrega JavaScript); si canvieu el nom definitiu, convé substituir-lo també als HTML (cerca i substitució).
 
 ## Afegir una pàgina nova (fases següents)
