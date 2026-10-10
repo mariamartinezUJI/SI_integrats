@@ -40,10 +40,8 @@ Les referències de la bibliografia [3] i [4] (`fonts.html`) estan escrites de m
 
 ## 4. Contingut pendent a la web (marcadors `[PENDENT: ...]`)
 
-- Fitxa de Lluís Durá Navarro.
-- Fitxa d'Alberto Hernández Marín.
-- Fitxa de Francisco José García Nebot.
-- Fitxa de Maria Martínez Gasch (redactada, pendent d'aprovació).
+Les targetes de «Qui som» només duen nom i botó «CV» (sense fitxa individual).
+
 - Enllaç al CV (`cvFolderUrl` a `js/config.js`), compartit pels quatre botons «CV».
 
 ## 5. Entrada bibliogràfica opcional (no inclosa; cal confirmar-la)
