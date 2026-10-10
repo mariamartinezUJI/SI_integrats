@@ -1,0 +1,13 @@
+# Fitxers de CV: no s'han de pujar mai al repositori públic
+*cv*.pdf
+*CV*.pdf
+*cv*.docx
+*CV*.docx
+cv/
+
+# Sistema i editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.log
