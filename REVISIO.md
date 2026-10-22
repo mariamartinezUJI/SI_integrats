@@ -1,15 +1,10 @@
-# Pendent de revisar
+# Notas de revisió
 
-Contingut que el document de context no inclou i que la web mostra com a «Pendent»:
+Entrega actual: només el que demana l'enunciat per a la primera versió (identitat de la consultora, «Qui som» amb referència als CV i breu descripció dels serveis).
 
-- Rol de cada membre de l'equip i aptituds de l'equip.
-- Història i evolució detallades de l'empresa client, i missió i visió.
-- Funcions generals de cada departament (la web només indica el seu paper en el procés).
-- Recursos físics, materials i normatives de les activitats. No s'ha citat cap normativa.
-
-Decisions preses:
-
-- Totes les àrees excepte Direcció apareixen amb paper en el procés: la descripció de l'etapa 2 diu que Compres repon segons l'Excel d'estoc.
-- L'organigrama posa Direcció (3 persones) al capdamunt i les altres cinc àrees a sota (3+8+2+9+17+5 = 44).
-- Cal acordar com es mesurarà la millora del procés (errors per comanda, comandes no servides, dies fins a facturar i cobrar).
-- Cal verificar el nom «Mestral» abans de fer-lo definitiu.
+- El contingut del cas (empresa client, estructura, procés i activitats) **no es mostra a la web** i està guardat a `contexto/caso-albufera.md`. La versió anterior de la web amb el cas complet és al commit `0cb6cb5`.
+- Rols (decidits): Alberto, cap de projecte ERP; Francisco José, analista de processos i requisits; Lluís, especialista en selecció d'ERP i dades; Maria, consultora funcional.
+- Els CV són perfils ficticis de rol (carpeta de Drive amb accés restringit); no s'ha de pujar cap CV al repositori (`cv/` és al `.gitignore`).
+- El nom «Mestral» és provisional: cal verificar que no coincidisca amb una marca registrada.
+- Frases de la descripció dels serveis i de les aptituds: redactades per l'equip de treball; es poden ajustar.
+- Cal acordar com es mesurarà la millora del procés (errors per comanda, comandes no servides, dies fins a facturar i cobrar) quan s'incorpore el cas.

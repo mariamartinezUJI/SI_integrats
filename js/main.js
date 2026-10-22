@@ -1,7 +1,7 @@
 /* ===== CONFIGURACIÓ: l'únic lloc que cal editar ===== */
 const NOM = "Mestral";                 // nom de la consultora (provisional)
 const SUBTITOL = "Consultoria ERP";
-const CV_URL = "https://drive.google.com/drive/folders/1rV9Le6QtmNoaCdS8zsMPhzD0TElu1ze5"; // carpeta de Google Drive amb els CV; buida = els botons «CV» queden amb «#»
+const CV_URL = "https://drive.google.com/drive/folders/1tfepl_rPzUGna0sojasRQL4zgvXp2QsA"; // carpeta de Google Drive amb els CV; buida = els botons «CV» queden amb «#»
 /* ================================================== */
 
 document.title = NOM + " · " + SUBTITOL;

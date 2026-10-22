@@ -1,6 +1,6 @@
 # Mestral · Consultoria ERP
 
-Web d'una sola pàgina del projecte de l'assignatura **EI/MT1046 Sistemes d'Informació Integrats** (Universitat Jaume I, curs 2026/2027). Cas fictici amb finalitats acadèmiques.
+Web d'una sola pàgina (identitat de la consultora, «Qui som» i serveis) del projecte de l'assignatura **EI/MT1046 Sistemes d'Informació Integrats** (Universitat Jaume I, curs 2026/2027). Cas fictici amb finalitats acadèmiques.
 
 HTML, CSS i un poc de JavaScript, sense compilació ni dependències. Rutes relatives.
 
@@ -21,7 +21,7 @@ const SUBTITOL = "Consultoria ERP";
 const CV_URL = "";   // carpeta de Google Drive amb els CV
 ```
 
-Mentre `CV_URL` estiga buida, els botons «CV» apunten a `#` (cada un porta el comentari `ENLLAÇ_DRIVE_PENDENT` a l'HTML).
+Tots els botons «CV» apunten a la mateixa carpeta de Drive (`CV_URL`). Mentre estiga buida, apunten a `#`.
 
 ## Privacitat
 
