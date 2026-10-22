@@ -107,9 +107,6 @@ h4 { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; color: var
 .resum div { border-top: 1px solid var(--line); padding-top: .8rem; }
 .resum dt { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .14em; color: var(--primary); margin-bottom: .3rem; }
 .resum dd { margin: 0; font-family: var(--serif); font-size: 1.2rem; line-height: 1.35; }
-.proximament { border: 1px dashed var(--ink); padding: 1.2rem 1.4rem; }
-.proximament h3 { margin: 0 0 .2rem; }
-.proximament p { margin: 0; text-transform: uppercase; letter-spacing: .14em; font-size: .75rem; font-weight: 700; color: var(--primary); }
 
 /* Xifres destacades */
 .xifres { list-style: none; margin: 2rem 0 2.5rem; padding: 0; display: grid; gap: 1.6rem 2rem; grid-template-columns: repeat(2, 1fr); }

@@ -1,4 +1,4 @@
-# Fitxers de CV: no s'han de pujar mai al repositori públic
+# Fitxers personals
 *cv*.pdf
 *CV*.pdf
 *cv*.docx
@@ -12,5 +12,6 @@ Thumbs.db
 .idea/
 *.log
 
-# Material intern de l'equip (no es publica)
+# Material local
 contexto/
+REVISIO.md
