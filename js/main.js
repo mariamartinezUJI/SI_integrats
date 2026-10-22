@@ -5,7 +5,7 @@ const CV_CARPETA = "https://drive.google.com/drive/folders/16yo0gE1xngANMm3dZndU
 const CV_PERSONES = {                  // enllaç al CV de cada persona; buit = carpeta
   alberto: "https://drive.google.com/drive/folders/16yo0gE1xngANMm3dZndUI8KOeoqEqRpN",
   fran:    "https://drive.google.com/drive/folders/16yo0gE1xngANMm3dZndUI8KOeoqEqRpN",
-  lluis:   "",
+  lluis:   "https://drive.google.com/drive/folders/16yo0gE1xngANMm3dZndUI8KOeoqEqRpN",
   maria:   "https://drive.google.com/drive/folders/16yo0gE1xngANMm3dZndUI8KOeoqEqRpN"
 };
 /* ================================================== */
