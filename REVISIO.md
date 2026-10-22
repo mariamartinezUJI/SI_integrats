@@ -3,7 +3,6 @@
 Contingut que el document de context no inclou i que la web mostra com a «Pendent»:
 
 - Rol de cada membre de l'equip i aptituds de l'equip.
-- Enllaç de la carpeta de Drive amb els CV (`CV_URL` a `js/main.js`; comentari `ENLLAÇ_DRIVE_PENDENT` a cada botó).
 - Història i evolució detallades de l'empresa client, i missió i visió.
 - Funcions generals de cada departament (la web només indica el seu paper en el procés).
 - Recursos físics, materials i normatives de les activitats. No s'ha citat cap normativa.
