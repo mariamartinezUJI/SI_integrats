@@ -1,6 +1,6 @@
 # Mestral · Consultoria ERP
 
-Web d'una sola pàgina (identitat de la consultora, «Qui som» i serveis) del projecte de l'assignatura **EI/MT1046 Sistemes d'Informació Integrats** (Universitat Jaume I, curs 2026/2027). Projecte amb finalitats acadèmiques.
+Web d'una sola pàgina (identitat de la consultora, «Qui som», serveis i cas d'èxit amb l'empresa client, l'estructura, el procés i les activitats) del projecte de l'assignatura **EI/MT1046 Sistemes d'Informació Integrats** (Universitat Jaume I, curs 2026/2027). Projecte amb finalitats acadèmiques.
 
 HTML, CSS i un poc de JavaScript, sense compilació ni dependències. Rutes relatives.
 
