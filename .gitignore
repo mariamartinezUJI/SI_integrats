@@ -11,3 +11,6 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+
+# Material intern de l'equip (no es publica)
+contexto/
