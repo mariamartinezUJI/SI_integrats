@@ -18,10 +18,11 @@ Al principi de `js/main.js`:
 ```js
 const NOM = "Mestral";
 const SUBTITOL = "Consultoria ERP";
-const CV_URL = "";   // carpeta de Google Drive amb els CV
+const CV_CARPETA = "…";                 // carpeta de Drive amb tots els CV
+const CV_PERSONES = { alberto: "…", fran: "…", lluis: "…", maria: "…" };  // enllaç al CV de cadascú (buit = carpeta)
 ```
 
-Tots els botons «CV» apunten a la mateixa carpeta de Drive (`CV_URL`). Mentre estiga buida, apunten a `#`.
+Cada botó «CV» obri l'enllaç de la seua persona (`CV_PERSONES`); si està buit, obri la carpeta (`CV_CARPETA`).
 
 ## Privacitat
 
