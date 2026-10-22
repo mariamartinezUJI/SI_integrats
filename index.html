@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Mestral · Consultoria ERP</title>
 <meta name="description" content="Mestral, consultoria ERP: qui som, quins serveis oferim i el cas d'èxit de Distribuciones Albufera, S.L.">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
@@ -40,7 +42,7 @@
   <div class="contenidor">
     <h1 data-nom>Mestral</h1>
     <p class="subtitol" data-subtitol>Consultoria ERP</p>
-    <p>Consultoria de disseny i implantació d'ERP per a pimes. Analitzem les necessitats d'una empresa client i seleccionem una solució ERP adequada per millorar-ne els processos. El nostre equip combina gestió de projectes, anàlisi de processos i requisits, selecció d'ERP i dades, i consultoria funcional.</p>
+    <p>Consultoria de selecció i implantació d'ERP i de millora de processos per a pimes. Analitzem les necessitats d'una empresa client i seleccionem una solució ERP adequada per millorar-ne els processos. El nostre equip combina gestió de projectes, anàlisi de processos i requisits, selecció d'ERP i dades, i consultoria funcional.</p>
     <div class="botons">
       <a class="boto" href="#cas">Veure el cas d'èxit</a>
       <a class="boto boto-clar" href="#qui-som">Conéixer l'equip</a>
@@ -58,7 +60,7 @@
         <div>
           <h3>Lluís Durá Navarro</h3>
           <p>Especialista en selecció d'ERP i dades</p>
-          <a class="boto boto-fosc" href="#" data-cv="lluis" aria-label="CV de Lluís Durá Navarro">CV</a>
+          <a class="boto boto-fosc" href="https://drive.google.com/file/d/1L4Mu0TI-tcb4PnGRWOOoqUeWJRCrZFFj/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="CV de Lluís Durá Navarro (s\'obri en una pestanya nova)">CV</a>
         </div>
       </article>
       <article class="targeta membre">
@@ -66,7 +68,7 @@
         <div>
           <h3>Alberto Hernández Marín</h3>
           <p>Cap de projecte ERP</p>
-          <a class="boto boto-fosc" href="#" data-cv="alberto" aria-label="CV de Alberto Hernández Marín">CV</a>
+          <a class="boto boto-fosc" href="https://drive.google.com/file/d/1mDau6XA0AAevucVWlV9aLbJrwuaqBDru/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="CV de Alberto Hernández Marín (s\'obri en una pestanya nova)">CV</a>
         </div>
       </article>
       <article class="targeta membre">
@@ -74,7 +76,7 @@
         <div>
           <h3>Francisco José García Nebot</h3>
           <p>Analista de processos i requisits</p>
-          <a class="boto boto-fosc" href="#" data-cv="fran" aria-label="CV de Francisco José García Nebot">CV</a>
+          <a class="boto boto-fosc" href="https://drive.google.com/file/d/1JkrPV2lwtznBTC_r-h-7hm2N2YO7iIe9/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="CV de Francisco José García Nebot (s\'obri en una pestanya nova)">CV</a>
         </div>
       </article>
       <article class="targeta membre">
@@ -82,7 +84,7 @@
         <div>
           <h3>Maria Martínez Gasch</h3>
           <p>Consultora funcional</p>
-          <a class="boto boto-fosc" href="#" data-cv="maria" aria-label="CV de Maria Martínez Gasch">CV</a>
+          <a class="boto boto-fosc" href="https://drive.google.com/file/d/1sYU8KIjVVwXWvsn17ter6JKQzizNPhN8/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="CV de Maria Martínez Gasch (s\'obri en una pestanya nova)">CV</a>
         </div>
       </article>
     </div>
@@ -138,9 +140,9 @@
     <h3>Sector i tipus de negoci</h3>
     <p>Distribució majorista de begudes i alimentació, amb repartiment propi, adreçada sobretot a la hostaleria. El catàleg inclou cerveses, refrescos, aigües, vins i caves, licors i làctics. Els clients es reparteixen així:</p>
     <ul class="barres" aria-label="Distribució de clients">
-      <li><div class="etiq"><span>Hostaleria</span><span>70 %</span></div><div class="barra" aria-hidden="true"><span style="width:70%"></span></div></li>
-      <li><div class="etiq"><span>Alimentació</span><span>20 %</span></div><div class="barra" aria-hidden="true"><span style="width:20%"></span></div></li>
-      <li><div class="etiq"><span>Esdeveniments i comissions falleres</span><span>10 %</span></div><div class="barra" aria-hidden="true"><span style="width:10%"></span></div></li>
+      <li><div class="etiq"><span>Hostaleria</span><span>70 %</span></div><div class="barra" aria-hidden="true"><span class="p70"></span></div></li>
+      <li><div class="etiq"><span>Alimentació</span><span>20 %</span></div><div class="barra" aria-hidden="true"><span class="p20"></span></div></li>
+      <li><div class="etiq"><span>Esdeveniments i comissions falleres</span><span>10 %</span></div><div class="barra" aria-hidden="true"><span class="p10"></span></div></li>
     </ul>
 
     <h3>Missió, visió i estratègia</h3>
@@ -264,12 +266,12 @@
     <h2 id="t-activitats">Activitats del procés</h2>
     <p class="lead">Les sis etapes detallades: qui hi participa, amb quins documents i eines, quina informació entra i ix, i quines deficiències s'hi han detectat.</p>
     <div class="activitats">
-<article class="activitat dep-com"><h3><span class="num" aria-hidden="true">1</span>Comanda i registre</h3><dl><dt>Com es fa</dt><dd class="ample">El client demana per telèfon, WhatsApp o a un comercial, que ho anota en una llibreta. Administració o Comercial ho transcriu a mà al programa o a l'Excel.</dd><dt>Rols</dt><dd>Comercial o televenda; personal administratiu</dd><dt>Departaments</dt><dd>Comercial; Administració i finances</dd><dt>Documents</dt><dd>Llibreta del comercial; full de comandes</dd><dt>Aplicacions o eines</dt><dd>Telèfon, WhatsApp, programa de facturació o Excel</dd><dt>Normatives o restriccions</dt><dd>Condicions de venda pactades</dd><dt>Informació d'entrada</dt><dd>Comanda del client (productes, quantitats i data)</dd><dt>Informació de sortida</dt><dd>Comanda registrada</dd></dl><p class="problema"><strong>Problema detectat:</strong> Errors i devolucions: la comanda es transcriu a mà.</p></article>
-<article class="activitat dep-mag"><h3><span class="num" aria-hidden="true">2</span>Estoc</h3><dl><dt>Com es fa</dt><dd class="ample">Es comprova si hi ha gènere. L'estoc està en un Excel que s'actualitza a final del dia; Compres repon segons eixe Excel.</dd><dt>Rols</dt><dd>Responsable de magatzem</dd><dt>Departaments</dt><dd>Magatzem; Compres (reposició)</dd><dt>Documents</dt><dd>Llistat d'estoc</dd><dt>Aplicacions o eines</dt><dd>Excel d'estoc, actualitzat a final del dia</dd><dt>Recursos físics</dt><dd>Nau de 1.500 m²</dd><dt>Materials</dt><dd>Palets, caixes i barrils</dd><dt>Normatives o restriccions</dt><dd>Traçabilitat de lots i caducitats</dd><dt>Informació d'entrada</dt><dd>Comanda registrada i estoc</dd><dt>Informació de sortida</dt><dd>Confirmació de disponibilitat</dd></dl><p class="problema"><strong>Problema detectat:</strong> Ruptures d'estoc i comandes sense servir.</p></article>
-<article class="activitat dep-mag"><h3><span class="num" aria-hidden="true">3</span>Preparació</h3><dl><dt>Com es fa</dt><dd class="ample">Magatzem arreplega cada article amb l'albarà en paper i deixa la comanda a punt, agrupada per client i ruta.</dd><dt>Rols</dt><dd>Mosso de magatzem</dd><dt>Departaments</dt><dd>Magatzem</dd><dt>Documents</dt><dd>Albarà imprés</dd><dt>Aplicacions o eines</dt><dd>Paper</dd><dt>Recursos físics</dt><dd>Carretó elevador i transpalet</dd><dt>Materials</dt><dd>Caixes, palets i envasos</dd><dt>Normatives o restriccions</dt><dd>Traçabilitat i caducitats</dd><dt>Informació d'entrada</dt><dd>Albarà</dd><dt>Informació de sortida</dt><dd>Comanda preparada, agrupada per client i ruta</dd></dl><p class="problema"><strong>Problema detectat:</strong> Els errors previs apareixen ací o a casa del client; sense control de caducitats.</p></article>
-<article class="activitat dep-rep"><h3><span class="num" aria-hidden="true">4</span>Rutes i lliurament</h3><dl><dt>Com es fa</dt><dd class="ample">Repartiment ix amb fulls de ruta i albarans en paper. El client signa l'albarà i les incidències s'anoten a mà.</dd><dt>Rols</dt><dd>Responsable de repartiment; conductor o conductora</dd><dt>Departaments</dt><dd>Repartiment</dd><dt>Documents</dt><dd>Full de ruta; albarà signat; vals d'envasos</dd><dt>Aplicacions o eines</dt><dd>Excel i paper</dd><dt>Recursos físics</dt><dd>12 vehicles de repartiment</dd><dt>Materials</dt><dd>Envasos retornables</dd><dt>Informació d'entrada</dt><dd>Comandes preparades i ruta</dd><dt>Informació de sortida</dt><dd>Albarà signat i envasos retornats</dd></dl><p class="problema"><strong>Problema detectat:</strong> Els albarans signats arriben tard a l'oficina, les rutes es fan a mà i els envasos queden sense registrar.</p></article>
-<article class="activitat dep-adm"><h3><span class="num" aria-hidden="true">5</span>Facturació</h3><dl><dt>Com es fa</dt><dd class="ample">Administració rep els albarans signats, els revisa i factura amb un programa bàsic, sense connexió amb la comanda ni amb l'estoc. Els clients petits paguen en el lliurament; la majoria rep una factura mensual que agrupa els albarans del mes.</dd><dt>Rols</dt><dd>Personal administratiu</dd><dt>Departaments</dt><dd>Administració i finances</dd><dt>Documents</dt><dd>Albarans signats; factura</dd><dt>Aplicacions o eines</dt><dd>Programa bàsic de facturació</dd><dt>Normatives o restriccions</dt><dd>Facturació i IVA</dd><dt>Informació d'entrada</dt><dd>Albarans signats</dd><dt>Informació de sortida</dt><dd>Factura</dd></dl><p class="problema"><strong>Problema detectat:</strong> Factures tardanes (cal reunir tots els albarans) i creuaments manuals.</p></article>
-<article class="activitat dep-adm"><h3><span class="num" aria-hidden="true">6</span>Cobrament</h3><dl><dt>Com es fa</dt><dd class="ample">La majoria de clients paga a crèdit (per exemple, a 30 dies) per rebut domiciliat o transferència; els petits paguen en el lliurament. Administració registra cada cobrament, el concilia a mà amb les factures i revisa a mà què queda pendent.</dd><dt>Rols</dt><dd>Responsable financer</dd><dt>Departaments</dt><dd>Administració i finances</dd><dt>Documents</dt><dd>Rebut domiciliat; transferència</dd><dt>Aplicacions o eines</dt><dd>Banca en línia i Excel</dd><dt>Informació d'entrada</dt><dd>Factura i extracte bancari</dd><dt>Informació de sortida</dt><dd>Cobrament registrat i saldos pendents</dd></dl><p class="problema"><strong>Problema detectat:</strong> Cobraments tardans i impagaments detectats tard.</p></article>
+<article class="activitat dep-com"><h3><span class="num" aria-hidden="true">1</span>Comanda i registre</h3><dl><dt>Com es fa</dt><dd>El client demana per telèfon, WhatsApp o a un comercial, que ho anota en una llibreta. Administració o Comercial ho transcriu a mà al programa o a l'Excel.</dd><dt>Rols</dt><dd>Comercial o televenda; personal administratiu</dd><dt>Departaments</dt><dd>Comercial; Administració i finances</dd><dt>Documents</dt><dd>Llibreta del comercial; full de comandes</dd><dt>Aplicacions o eines</dt><dd>Telèfon, WhatsApp, programa de facturació o Excel</dd><dt>Normatives o restriccions</dt><dd>Condicions de venda pactades</dd><dt>Informació d'entrada</dt><dd>Comanda del client (productes, quantitats i data)</dd><dt>Informació de sortida</dt><dd>Comanda registrada</dd></dl><p class="problema"><strong>Problema detectat:</strong> Errors i devolucions: la comanda es transcriu a mà.</p></article>
+<article class="activitat dep-mag"><h3><span class="num" aria-hidden="true">2</span>Estoc</h3><dl><dt>Com es fa</dt><dd>Es comprova si hi ha gènere. L'estoc està en un Excel que s'actualitza a final del dia; Compres repon segons eixe Excel.</dd><dt>Rols</dt><dd>Responsable de magatzem</dd><dt>Departaments</dt><dd>Magatzem; Compres (reposició)</dd><dt>Documents</dt><dd>Llistat d'estoc</dd><dt>Aplicacions o eines</dt><dd>Excel d'estoc, actualitzat a final del dia</dd><dt>Recursos físics</dt><dd>Nau de 1.500 m²</dd><dt>Materials</dt><dd>Palets, caixes i barrils</dd><dt>Normatives o restriccions</dt><dd>Traçabilitat de lots i caducitats</dd><dt>Informació d'entrada</dt><dd>Comanda registrada i estoc</dd><dt>Informació de sortida</dt><dd>Confirmació de disponibilitat</dd></dl><p class="problema"><strong>Problema detectat:</strong> Ruptures d'estoc i comandes sense servir.</p></article>
+<article class="activitat dep-mag"><h3><span class="num" aria-hidden="true">3</span>Preparació</h3><dl><dt>Com es fa</dt><dd>Magatzem arreplega cada article amb l'albarà en paper i deixa la comanda a punt, agrupada per client i ruta.</dd><dt>Rols</dt><dd>Mosso de magatzem</dd><dt>Departaments</dt><dd>Magatzem</dd><dt>Documents</dt><dd>Albarà imprés</dd><dt>Aplicacions o eines</dt><dd>Paper</dd><dt>Recursos físics</dt><dd>Carretó elevador i transpalet</dd><dt>Materials</dt><dd>Caixes, palets i envasos</dd><dt>Normatives o restriccions</dt><dd>Traçabilitat i caducitats</dd><dt>Informació d'entrada</dt><dd>Albarà</dd><dt>Informació de sortida</dt><dd>Comanda preparada, agrupada per client i ruta</dd></dl><p class="problema"><strong>Problema detectat:</strong> Els errors previs apareixen ací o a casa del client; sense control de caducitats.</p></article>
+<article class="activitat dep-rep"><h3><span class="num" aria-hidden="true">4</span>Rutes i lliurament</h3><dl><dt>Com es fa</dt><dd>Repartiment ix amb fulls de ruta i albarans en paper. El client signa l'albarà i les incidències s'anoten a mà.</dd><dt>Rols</dt><dd>Responsable de repartiment; conductor o conductora</dd><dt>Departaments</dt><dd>Repartiment</dd><dt>Documents</dt><dd>Full de ruta; albarà signat; vals d'envasos</dd><dt>Aplicacions o eines</dt><dd>Excel i paper</dd><dt>Recursos físics</dt><dd>12 vehicles de repartiment</dd><dt>Materials</dt><dd>Envasos retornables</dd><dt>Informació d'entrada</dt><dd>Comandes preparades i ruta</dd><dt>Informació de sortida</dt><dd>Albarà signat i envasos retornats</dd></dl><p class="problema"><strong>Problema detectat:</strong> Els albarans signats arriben tard a l'oficina, les rutes es fan a mà i els envasos queden sense registrar.</p></article>
+<article class="activitat dep-adm"><h3><span class="num" aria-hidden="true">5</span>Facturació</h3><dl><dt>Com es fa</dt><dd>Administració rep els albarans signats, els revisa i factura amb un programa bàsic, sense connexió amb la comanda ni amb l'estoc. Els clients petits paguen en el lliurament; la majoria rep una factura mensual que agrupa els albarans del mes.</dd><dt>Rols</dt><dd>Personal administratiu</dd><dt>Departaments</dt><dd>Administració i finances</dd><dt>Documents</dt><dd>Albarans signats; factura</dd><dt>Aplicacions o eines</dt><dd>Programa bàsic de facturació</dd><dt>Normatives o restriccions</dt><dd>Facturació i IVA</dd><dt>Informació d'entrada</dt><dd>Albarans signats</dd><dt>Informació de sortida</dt><dd>Factura</dd></dl><p class="problema"><strong>Problema detectat:</strong> Factures tardanes (cal reunir tots els albarans) i creuaments manuals.</p></article>
+<article class="activitat dep-adm"><h3><span class="num" aria-hidden="true">6</span>Cobrament</h3><dl><dt>Com es fa</dt><dd>La majoria de clients paga a crèdit (per exemple, a 30 dies) per rebut domiciliat o transferència; els petits paguen en el lliurament. Administració registra cada cobrament, el concilia a mà amb les factures i revisa a mà què queda pendent.</dd><dt>Rols</dt><dd>Responsable financer</dd><dt>Departaments</dt><dd>Administració i finances</dd><dt>Documents</dt><dd>Rebut domiciliat; transferència</dd><dt>Aplicacions o eines</dt><dd>Banca en línia i Excel</dd><dt>Normatives o restriccions</dt><dd>Condicions de pagament pactades (crèdit, per exemple a 30 dies)</dd><dt>Informació d'entrada</dt><dd>Factura i extracte bancari</dd><dt>Informació de sortida</dt><dd>Cobrament registrat i saldos pendents</dd></dl><p class="problema"><strong>Problema detectat:</strong> Cobraments tardans i impagaments detectats tard.</p></article>
     </div>
   </div>
 </section>

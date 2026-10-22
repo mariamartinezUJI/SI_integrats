@@ -11,18 +11,14 @@ HTML, CSS i un poc de JavaScript, sense compilació ni dependències. Rutes rela
 
 **Settings → Pages → Deploy from a branch → `main` → `/ (root)` → Save.**
 
-## Canviar el nom o l'enllaç de CV
+## Configuració
 
-Al principi de `js/main.js`:
+- **Nom i subtítol de la consultora:** al principi de `js/main.js` (`NOM` i `SUBTITOL`).
+- **Enllaços dels CV:** a l'atribut `href` de cada botó «CV» de la secció «Qui som» (`index.html`). Són enllaços a fitxers de Google Drive amb accés restringit.
 
-```js
-const NOM = "Mestral";
-const SUBTITOL = "Consultoria ERP";
-const CV_CARPETA = "…";                 // carpeta de Drive amb tots els CV
-const CV_PERSONES = { alberto: "…", fran: "…", lluis: "…", maria: "…" };  // enllaç al CV de cadascú (buit = carpeta)
-```
+## Seguretat
 
-Cada botó «CV» obri l'enllaç de la seua persona (`CV_PERSONES`); si està buit, obri la carpeta (`CV_CARPETA`).
+La pàgina declara una política de seguretat de contingut (`Content-Security-Policy`) que només permet recursos propis i les tipografies de Google Fonts. Si s'hi afegeix un recurs extern nou, cal afegir-ne l'origen a aquesta política.
 
 ## Privacitat
 

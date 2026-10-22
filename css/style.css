@@ -29,7 +29,8 @@ a { color: var(--primary); text-underline-offset: .18em; }
 .salta:focus { top: .5rem; }
 
 /* Capçalera */
-.capcalera { background: var(--blanc); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 10; }
+.capcalera { background: var(--blanc); border-bottom: 1px solid var(--line); position: relative; z-index: 10; }
+@media (min-width: 960px) { .capcalera { position: sticky; top: 0; } section, .hero { scroll-margin-top: 4.5rem; } }
 .capcalera .contenidor { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .3rem 2rem; padding-top: .8rem; padding-bottom: .8rem; }
 .marca { display: inline-flex; align-items: center; gap: .7rem; color: var(--ink); text-decoration: none; font-family: var(--serif); font-weight: 600; font-size: 1.3rem; line-height: 1.1; }
 .marca img { width: 2.2rem; height: 2.2rem; }
@@ -127,6 +128,7 @@ h4 { font-family: var(--serif); font-size: 1.15rem; font-weight: 600; color: var
 .barres .etiq { display: flex; justify-content: space-between; gap: 1rem; font-weight: 500; }
 .barres .barra { height: .6rem; background: var(--soft); margin-top: .3rem; }
 .barres .barra span { display: block; height: 100%; background: var(--primary); }
+.barres .p70 { width: 70%; } .barres .p20 { width: 20%; } .barres .p10 { width: 10%; }
 
 /* Blocs de text en columnes */
 .trio { display: grid; gap: 1.6rem 2rem; grid-template-columns: 1fr; margin-bottom: 1.5rem; }
