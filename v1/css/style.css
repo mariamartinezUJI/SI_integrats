@@ -210,7 +210,7 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .subnav a:hover { color: var(--primary); border-bottom-color: var(--primary); }
 .part { margin-top: 4rem; padding-top: 2.5rem; border-top: 2px solid var(--ink); }
 .part > h3 { font-size: clamp(1.6rem, 3vw, 2.1rem); font-weight: 400; margin: 0 0 1rem; }
-.part > h3::before { content: "Cas d'èxit · " attr(data-pas); display: block; font-family: var(--font); font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); margin-bottom: .6rem; }
+.part > h3::before { content: attr(data-pas); display: block; font-family: var(--font); font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); margin-bottom: .6rem; }
 .resum + .part { margin-top: 3rem; }
 @media (min-width: 960px) {
   section .contenidor > .lateral { grid-column: 1; grid-row: 1 / span 80; align-self: start; position: sticky; top: 6rem; }
@@ -254,5 +254,28 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 2px solid var(--ink); }
 .pager a { font-weight: 700; text-decoration: none; }
 .pager a:hover { text-decoration: underline; }
+
+/* Acordions */
+.eines-acord { margin: 1.2rem 0 .3rem; text-align: right; }
+.btn-text { font: inherit; font-size: .9rem; font-weight: 700; color: var(--primary); background: none; border: 0; padding: .3rem 0; cursor: pointer; text-decoration: underline; text-underline-offset: .18em; }
+.acords { margin-bottom: 2rem; }
+.acord { border-top: 1px solid var(--line); }
+.acord:last-child { border-bottom: 1px solid var(--line); }
+.acord summary { display: flex; align-items: center; gap: 1rem; padding: 1rem 0; cursor: pointer; list-style: none; }
+.acord summary::-webkit-details-marker { display: none; }
+.acord summary::after { content: ""; flex: none; margin-left: auto; width: .6rem; height: .6rem; border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: rotate(45deg); transition: transform .15s; }
+.acord[open] summary::after { transform: rotate(-135deg); }
+.acord summary:hover .titol strong { color: var(--primary); }
+.acord .titol { display: block; min-width: 0; }
+.acord .titol strong { display: block; font-family: var(--serif); font-size: 1.15rem; font-weight: 600; color: var(--ink); line-height: 1.3; }
+.acord .avanc { display: block; font-size: .92rem; line-height: 1.45; }
+.acord summary .cat { margin: 0 .5rem 0 auto; flex: none; }
+.acord-cos { padding: 0 0 1.2rem 3.5rem; max-width: 46rem; }
+.acord-cos p { margin-bottom: .8rem; }
+@media (max-width: 699px) {
+  .acord-cos { padding-left: 0; }
+  .acord summary .cat { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .acord summary::after { transition: none; } }
 
 @media print { .capcalera, .salta { display: none; } }
