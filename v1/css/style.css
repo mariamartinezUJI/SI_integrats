@@ -11,7 +11,7 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
-body { margin: 0; font-family: var(--font); font-size: 1rem; line-height: 1.7; color: var(--text); background: var(--blanc); }
+body { margin: 0; font-family: var(--font); font-size: 1.0625rem; line-height: 1.7; color: var(--text); background: var(--blanc); }
 
 h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; color: var(--ink); line-height: 1.15; margin: 0 0 .6em; letter-spacing: -.01em; }
 h1 { font-size: clamp(2.8rem, 8vw, 5.2rem); line-height: 1.05; color: var(--blanc); margin-bottom: .2em; letter-spacing: -.02em; }
@@ -54,7 +54,9 @@ main { counter-reset: seccio; }
 section { padding: 4.5rem 0; counter-increment: seccio; border-bottom: 1px solid var(--line); }
 section:nth-of-type(even) { background: var(--tint); }
 section h2::before { content: counter(seccio, decimal-leading-zero); display: block; font-family: var(--font); font-size: .8rem; font-weight: 700; letter-spacing: .16em; color: var(--primary); margin-bottom: .8rem; }
-.lead { font-size: 1.15rem; max-width: 44rem; }
+.lead { font-size: 1.2rem; max-width: 44rem; }
+main p, main li { max-width: 46rem; }
+.taula p, .org li, .menu li, .flux li, .dades dd, .xifres li { max-width: none; }
 @media (min-width: 960px) {
   section .contenidor { display: grid; grid-template-columns: 16rem minmax(0, 1fr); column-gap: 3rem; row-gap: 0; }
   section .contenidor > * { grid-column: 2; }
@@ -194,12 +196,13 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .activitats { display: grid; gap: 2.4rem; margin-top: 1.5rem; }
 .activitat { border-top: 4px solid var(--c); padding-top: 1rem; }
 .activitat h4 { display: flex; gap: .9rem; align-items: center; margin: 0 0 1rem; }
-.activitat dl { margin: 0; display: grid; grid-template-columns: 1fr; gap: .15rem 1.5rem; }
-.activitat dt { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--primary); margin-top: .7rem; }
+.activitat dl { margin: 0; display: grid; grid-template-columns: 1fr; gap: .9rem 2rem; }
+.activitat dl > div { min-width: 0; }
+.activitat dt { font-size: .7rem; font-weight: 700; text-transform: uppercase; letter-spacing: .13em; color: var(--primary); margin-bottom: .1rem; }
 .activitat dd { margin: 0; }
 @media (min-width: 700px) {
-  .activitat dl { grid-template-columns: 11rem 1fr; gap: .6rem 1.5rem; }
-  .activitat dt { margin-top: .25rem; }
+  .activitat dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .activitat dl > .ample { grid-column: 1 / -1; }
 }
 .activitat .problema { background: var(--soft); padding: .8rem 1rem; margin: 1.2rem 0 0; }
 
@@ -277,5 +280,14 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
   .acord summary .cat { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .acord summary::after { transition: none; } }
+
+/* Activitats com a acordions */
+.activitats { gap: 1.1rem; margin-top: .5rem; }
+.activitat { padding-top: 0; }
+.activitat .acord { border-top: 0; }
+.activitat .acord:last-child { border-bottom: 0; }
+.activitat .acord-cos { padding-left: 0; max-width: none; }
+.activitat .acord summary { padding: .9rem 0; }
+.activitat .acord summary .cat { color: var(--c); }
 
 @media print { .capcalera, .salta { display: none; } }
