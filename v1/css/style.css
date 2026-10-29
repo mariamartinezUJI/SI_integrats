@@ -235,4 +235,6 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .analisi h5 { margin-bottom: .3rem; }
 .analisi p { margin-bottom: .8rem; max-width: 46rem; }
 
+.cat { display: inline-block; margin-left: .5rem; padding: .1rem .5rem; background: var(--soft); color: var(--ink); font-family: var(--font); font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; vertical-align: .15rem; }
+
 @media print { .capcalera, .salta { display: none; } }

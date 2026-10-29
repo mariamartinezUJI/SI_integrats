@@ -4,6 +4,8 @@ Web d'una sola pàgina (identitat de la consultora, «Qui som», serveis i cas d
 
 HTML, CSS i un poc de JavaScript, sense compilació ni dependències. Rutes relatives.
 
+- **V0** (lliurament de la Pràctica 3): arrel del repositori, etiqueta `v0`.
+- **V1** (Pràctica 4): carpeta `v1/`, amb els seus propis estils, scripts i imatges: <https://mariamartinezuji.github.io/SI_integrats/v1/>
 - Repositori: <https://github.com/mariamartinezUJI/SI_integrats>
 - URL: <https://mariamartinezuji.github.io/SI_integrats/>
 
