@@ -237,4 +237,22 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 
 .cat { display: inline-block; margin-left: .5rem; padding: .1rem .5rem; background: var(--soft); color: var(--ink); font-family: var(--font); font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; vertical-align: .15rem; }
 
+/* Pàgines interiors i navegació */
+.hero-pagina { padding: 3.5rem 0 3.8rem; }
+.hero-pagina h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); }
+.hero-pagina .subtitol { margin-bottom: 1.2rem; }
+.hero-pagina p { margin-bottom: 0; }
+.menu a[aria-current="page"] { color: var(--primary); border-bottom-color: var(--primary); }
+.enllacos { display: grid; gap: 1.2rem; grid-template-columns: 1fr; margin-top: 2rem; }
+@media (min-width: 700px) { .enllacos { grid-template-columns: repeat(2, 1fr); } }
+.targeta-enllac { display: block; padding: 1.2rem 1.3rem 1.4rem; border-top: 3px solid var(--ink); background: var(--blanc); text-decoration: none; color: var(--text); border-left: 1px solid var(--line); border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.targeta-enllac strong { display: block; font-family: var(--serif); font-size: 1.35rem; font-weight: 600; color: var(--ink); margin: .2rem 0 .4rem; }
+.targeta-enllac .etiq { font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--primary); }
+.targeta-enllac:hover { background: var(--tint); }
+.targeta-enllac:hover strong { color: var(--primary); }
+.targeta-enllac span:last-child::after { content: " →"; color: var(--primary); font-weight: 700; }
+.pager { display: flex; justify-content: space-between; gap: 1rem; margin-top: 4rem; padding-top: 1.5rem; border-top: 2px solid var(--ink); }
+.pager a { font-weight: 700; text-decoration: none; }
+.pager a:hover { text-decoration: underline; }
+
 @media print { .capcalera, .salta { display: none; } }

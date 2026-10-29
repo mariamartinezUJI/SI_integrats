@@ -12,21 +12,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&amp;family=Source+Serif+4:wght@400;600&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+</head><body>
 <a class="salta" href="#contingut">Salta al contingut</a>
 
 <header class="capcalera">
   <div class="contenidor">
-    <a class="marca" href="#inici">
+    <a class="marca" href="index.html">
       <img src="img/logo.svg" alt="" width="38" height="38">
       <span><span data-nom>Mestral</span><small data-subtitol>Consultoria ERP</small></span>
     </a>
-    <nav aria-label="Seccions de la pàgina">
+    <nav aria-label="Menú principal">
       <ul class="menu">
-        <li><a href="#qui-som">Qui som</a></li>
-        <li><a href="#serveis">Serveis</a></li>
-        <li><a href="#cas">El cas d'èxit</a></li>
+        <li><a href="index.html#qui-som">Qui som</a></li>
+        <li><a href="index.html#serveis">Serveis</a></li>
+        <li><a href="cas.html">El cas</a></li>
+        <li><a href="analisi.html">Anàlisi i millora</a></li>
       </ul>
     </nav>
   </div>
@@ -40,12 +40,11 @@
     <p class="subtitol" data-subtitol>Consultoria ERP</p>
     <p>Consultoria de selecció i implantació d'ERP i de millora de processos per a pimes. Analitzem les necessitats d'una empresa client i seleccionem una solució ERP adequada per millorar-ne els processos. El nostre equip combina gestió de projectes, anàlisi de processos i requisits, selecció d'ERP i dades, i consultoria funcional.</p>
     <div class="botons">
-      <a class="boto" href="#cas">Veure el cas d'èxit</a>
+      <a class="boto" href="cas.html">Veure el cas d'èxit</a>
       <a class="boto boto-clar" href="#qui-som">Conéixer l'equip</a>
     </div>
   </div>
 </div>
-
 <section id="qui-som" aria-labelledby="t-qui">
   <div class="contenidor">
     <h2 id="t-qui">Qui som</h2>
@@ -102,15 +101,6 @@
   <div class="contenidor">
     <div class="lateral">
       <h2 id="t-cas">El cas d'èxit</h2>
-      <nav class="subnav" aria-label="Apartats del cas">
-        <ol>
-          <li><a href="#empresa">El client</a></li>
-          <li><a href="#estructura">Estructura</a></li>
-          <li><a href="#proces">El procés</a></li>
-          <li><a href="#activitats">Activitats</a></li>
-          <li><a href="#analisi">Anàlisi i millora</a></li>
-        </ol>
-      </nav>
     </div>
     <p class="lead">Distribuciones Albufera, S.L. vol passar de fulls de càlcul, paper i missatges a un ERP que connecte les comandes, l'estoc, el repartiment i la facturació. Ací presentem la seua situació actual: l'empresa, l'estructura, el procés que cal millorar i les activitats que el formen.</p>
     <dl class="resum">
@@ -119,221 +109,17 @@
       <div><dt>Mida</dt><dd>44 persones · uns 7,5 M€ de facturació</dd></div>
       <div><dt>Repte</dt><dd>Un procés manual i sense integrar, de la comanda al cobrament, sense ERP</dd></div>
     </dl>
-    <div class="part" id="empresa" role="group" aria-labelledby="t-empresa">
-      <h3 id="t-empresa" data-pas="1 / 5">El client: Distribuciones Albufera, S.L.</h3>
-    <p class="lead">Distribuciones Albufera, S.L. és una distribuïdora familiar de begudes i alimentació que abasteix la hostaleria i els comerços de València i la seua àrea metropolitana. Té la seu a Quart de Poblet, en una nau de 1.500 m².</p>
-
-    <ul class="xifres" aria-label="Dades clau de l'empresa">
-      <li><strong>1989</strong><span>Any de fundació</span></li>
-      <li><strong>44</strong><span>Persones</span></li>
-      <li><strong>7,5 M€</strong><span>Facturació aproximada</span></li>
-      <li><strong>~900</strong><span>Clients actius</span></li>
-      <li><strong>~1.400</strong><span>Referències (articles amb codi propi)</span></li>
-      <li><strong>12 + 4</strong><span>Vehicles de repartiment i de comercials</span></li>
-    </ul>
-
-    <h4>Història i evolució</h4>
-    <ol class="cronologia">
-      <li><span class="any">1989</span>El fundador reparteix refrescos i cervesa amb una furgoneta a bars de Quart de Poblet.</li>
-      <li><span class="any">2002</span>S'incorpora la segona generació i s'amplia el catàleg a aigües, vins, caves i làctics.</li>
-      <li><span class="any">2010</span>Trasllat a una nau pròpia de 1.500 m² i servei de begudes per a festes i esdeveniments.</li>
-      <li><span class="any">2019</span>Entra la tercera generació a la direcció i es planteja modernitzar la gestió.</li>
-    </ol>
-
-    <h4>Sector i tipus de negoci</h4>
-    <p>Distribució majorista de begudes i alimentació, amb repartiment propi, adreçada sobretot a la hostaleria. El catàleg inclou cerveses, refrescos, aigües, vins i caves, licors i làctics. Els clients es reparteixen així:</p>
-    <ul class="barres" aria-label="Distribució de clients">
-      <li><div class="etiq"><span>Hostaleria</span><span>70 %</span></div><div class="barra" aria-hidden="true"><span class="p70"></span></div></li>
-      <li><div class="etiq"><span>Alimentació</span><span>20 %</span></div><div class="barra" aria-hidden="true"><span class="p20"></span></div></li>
-      <li><div class="etiq"><span>Esdeveniments i comissions falleres</span><span>10 %</span></div><div class="barra" aria-hidden="true"><span class="p10"></span></div></li>
-    </ul>
-
-    <h4>Missió, visió i estratègia</h4>
-    <div class="trio">
-      <div><h5>Missió</h5><p>Abastir els negocis d'hostaleria amb el producte adequat, en el moment acordat i amb un tracte pròxim.</p></div>
-      <div><h5>Visió</h5><p>Ser el distribuïdor de referència de l'hostaleria de l'àrea metropolitana de València per la seua fiabilitat i el seu servei.</p></div>
-      <div><h5>Estratègia</h5>
-        <ul class="llista">
-          <li>Fidelitzar amb un servei puntual i fiable.</li>
-          <li>Créixer sense ampliar la plantilla.</li>
-          <li>Digitalitzar la gestió: menys paper, menys Excel.</li>
-        </ul>
-      </div>
-    </div>
-
-    <h4>Punt de partida en sistemes d'informació</h4>
-    <p><strong>L'empresa no disposa d'un ERP</strong> i treballa amb eines que no estan integrades:</p>
-    <ul class="llista">
-      <li>Un programa de facturació bàsic, en dos equips d'Administració.</li>
-      <li>Fulls d'Excel per a comandes i estoc.</li>
-      <li>Comandes per telèfon, WhatsApp i llibreta del comercial.</li>
-      <li>Fulls de ruta i albarans en paper.</li>
-      <li>Banca en línia i un Excel de rebuts pendents.</li>
-    </ul>
-    <p>Com que res no està connectat, cada dada s'introdueix diverses vegades, ningú no veu l'estoc real i la direcció no pot consultar marges ni impagaments sense demanar-los a Administració.</p>
-    </div>
-
-    <div class="part" id="estructura" role="group" aria-labelledby="t-estructura">
-      <h3 id="t-estructura" data-pas="2 / 5">Estructura organitzativa</h3>
-    <p class="lead">Plantilla de 44 persones repartides en sis àrees, en un únic centre de treball: la seu i el magatzem de Quart de Poblet, sense sucursals.</p>
-
-    <h4>Organigrama</h4>
-    <p>Les àrees ressaltades intervenen directament en el procés que volem millorar.</p>
-    <ul class="org" aria-label="Organigrama de Distribuciones Albufera, S.L.">
-      <li class="dalt"><span class="node">Direcció<small>3 persones</small></span>
-        <ul class="fills">
-          <li><span class="node implicat">Comercial<small>8 persones</small></span></li>
-          <li><span class="node">Compres<small>2 persones</small></span></li>
-          <li><span class="node implicat">Magatzem<small>9 persones</small></span></li>
-          <li><span class="node implicat">Repartiment<small>17 persones</small></span></li>
-          <li><span class="node implicat">Administració i finances<small>5 persones</small></span></li>
-        </ul>
-      </li>
-    </ul>
-
-    <h4>Funcions i paper en el procés</h4>
-    <div class="taula">
-      <table>
-        <caption class="sr-only">Àrees, persones, funcions principals i paper en el procés de la comanda al cobrament</caption>
-        <thead><tr><th scope="col">Àrea</th><th scope="col">Persones</th><th scope="col">Funcions principals</th><th scope="col">En el procés</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">Direcció</th><td data-label="Persones">3</td><td data-label="Funcions principals">Estratègia, relació amb proveïdors clau i inversions.</td><td data-label="En el procés">No hi intervé directament</td></tr>
-          <tr><th scope="row">Comercial</th><td data-label="Persones">8 <span class="nota">(6 comercials i 2 de televenda)</span></td><td data-label="Funcions principals">Captació i visita de clients, presa de comandes, preus i ofertes.</td><td data-label="En el procés"><strong>Implicat</strong> · etapa 1</td></tr>
-          <tr><th scope="row">Compres</th><td data-label="Persones">2</td><td data-label="Funcions principals">Comandes a proveïdors i condicions.</td><td data-label="En el procés">Suport · repon l'estoc (etapa 2)</td></tr>
-          <tr><th scope="row">Magatzem</th><td data-label="Persones">9</td><td data-label="Funcions principals">Recepció, ubicació, control d'estoc i preparació de comandes.</td><td data-label="En el procés"><strong>Implicat</strong> · etapes 2 i 3</td></tr>
-          <tr><th scope="row">Repartiment</th><td data-label="Persones">17 <span class="nota">(12 conductors i 5 ajudants)</span></td><td data-label="Funcions principals">Rutes, lliurament, cobrament en mà i recollida d'envasos.</td><td data-label="En el procés"><strong>Implicat</strong> · etapa 4</td></tr>
-          <tr><th scope="row">Administració i finances</th><td data-label="Persones">5</td><td data-label="Funcions principals">Facturació, cobraments, impagaments, comptabilitat i nòmines.</td><td data-label="En el procés"><strong>Implicat</strong> · etapes 1, 5 i 6</td></tr>
-          <tr class="total"><th scope="row">Total</th><td data-label="Persones">44</td><td data-label="Funcions principals"></td><td data-label="En el procés"></td></tr>
-        </tbody>
-      </table>
-    </div>
-    </div>
-
-    <div class="part" id="proces" role="group" aria-labelledby="t-proces">
-      <h3 id="t-proces" data-pas="3 / 5">El procés que es vol millorar</h3>
-    <p class="lead">El procés <strong>de la comanda al cobrament</strong>: des que entra una comanda fins que el cobrament queda registrat.</p>
-
-    <div class="trio dos">
-      <div><h4>Objectiu</h4><p>Servir bé cada comanda i cobrar-la sense retards.</p></div>
-      <div><h4>Abast: on comença i on acaba</h4><p>Comença quan entra la comanda (telèfon, WhatsApp o comercial) i acaba quan el cobrament queda registrat. Inclou el seguiment dels cobraments pendents; no inclou la recuperació judicial de deutes.</p></div>
-    </div>
-
-    <h4>Qui hi intervé i com funciona</h4>
-    <p>Hi intervenen Comercial, Compres, Magatzem, Repartiment i Administració i finances. El procés té sis etapes, quasi totes manuals:</p>
-    <ul class="llegenda" aria-label="Llegenda de departaments"><li class="dep-com">Comercial</li><li class="dep-adm">Administració i finances</li><li class="dep-mag">Magatzem</li><li class="dep-rep">Repartiment</li></ul>
-    <ol class="flux" aria-label="Etapes del procés de la comanda al cobrament">
-<li class="dep-com"><span class="num" aria-hidden="true">1</span><div><h4><span class="sr-only">Etapa 1: </span>Comanda i registre</h4><p class="etiqueta">Comercial · Administració i finances</p><p class="alerta"><strong>Problema:</strong> Errors i devolucions</p></div></li>
-<li class="dep-mag"><span class="num" aria-hidden="true">2</span><div><h4><span class="sr-only">Etapa 2: </span>Estoc</h4><p class="etiqueta">Magatzem · Compres</p><p class="alerta"><strong>Problema:</strong> Ruptures d'estoc</p></div></li>
-<li class="dep-mag"><span class="num" aria-hidden="true">3</span><div><h4><span class="sr-only">Etapa 3: </span>Preparació</h4><p class="etiqueta">Magatzem</p><p class="alerta"><strong>Problema:</strong> Errors de preparació</p></div></li>
-<li class="dep-rep"><span class="num" aria-hidden="true">4</span><div><h4><span class="sr-only">Etapa 4: </span>Rutes i lliurament</h4><p class="etiqueta">Repartiment</p><p class="alerta"><strong>Problema:</strong> Albarans que arriben tard</p></div></li>
-<li class="dep-adm"><span class="num" aria-hidden="true">5</span><div><h4><span class="sr-only">Etapa 5: </span>Facturació</h4><p class="etiqueta">Administració i finances</p><p class="alerta"><strong>Problema:</strong> Factures tardanes</p></div></li>
-<li class="dep-adm"><span class="num" aria-hidden="true">6</span><div><h4><span class="sr-only">Etapa 6: </span>Cobrament</h4><p class="etiqueta">Administració i finances</p><p class="alerta"><strong>Problema:</strong> Impagaments detectats tard</p></div></li>
-    </ol>
-    <p class="alt"><strong>Recorregut resumit:</strong> la comanda s'anota (Comercial) i es transcriu (Administració), es comprova l'estoc (Magatzem i Compres), es prepara (Magatzem), es lliura amb la ruta (Repartiment), es factura i, finalment, es cobra i se'n fa el seguiment (Administració i finances).</p>
-
-    <h4>Problemes i conseqüències</h4>
-    <p><strong>Deficiència de fons:</strong> no hi ha ERP. Comandes per telèfon i WhatsApp, estoc en Excel, albarans en paper i facturació amb un programa bàsic, tot sense connectar.</p>
-    <div class="taula">
-      <table>
-        <caption class="sr-only">Problemes del procés, conseqüència per a l'empresa i etapa on s'origina</caption>
-        <thead><tr><th scope="col">Problema</th><th scope="col">Conseqüència per a l'empresa</th><th scope="col">S'origina en</th></tr></thead>
-        <tbody>
-          <tr><th scope="row">Comandes per telèfon i WhatsApp, transcrites a mà</th><td data-label="Conseqüència per a l'empresa">Errors de producte o quantitat, devolucions i clients enfadats.</td><td data-label="S'origina en">Etapa 1</td></tr>
-          <tr><th scope="row">Estoc en Excel, actualitzat a final del dia</th><td data-label="Conseqüència per a l'empresa">Ruptures d'estoc no detectades i comandes que no es poden servir.</td><td data-label="S'origina en">Etapa 2</td></tr>
-          <tr><th scope="row">Albarans en paper que arriben tard a Administració</th><td data-label="Conseqüència per a l'empresa">Factures amb dies o setmanes de retard i cobraments endarrerits.</td><td data-label="S'origina en">Etapes 4 i 5</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <h4>Preocupacions de la direcció</h4>
-    <ul class="llista">
-      <li>Perdre clients per errors i retards davant de competidors més àgils.</li>
-      <li>No conéixer el marge real per client i per producte.</li>
-      <li>Dependre d'uns pocs Excels i de dues persones d'Administració.</li>
-    </ul>
-    <p>Aquestes deficiències justifiquen la selecció i la implantació d'un ERP que integre les dades de comandes, estoc, repartiment, facturació i cobraments.</p>
-    </div>
-
-    <div class="part" id="activitats" role="group" aria-labelledby="t-activitats">
-      <h3 id="t-activitats" data-pas="4 / 5">Activitats del procés</h3>
-    <p class="lead">Les sis etapes detallades: qui hi participa, amb quins documents i eines, quina informació entra i ix, i quines deficiències s'hi han detectat.</p>
-    <div class="activitats">
-<article class="activitat dep-com"><h4><span class="num" aria-hidden="true">1</span>Comanda i registre</h4><dl><dt>Com es fa</dt><dd>El client demana per telèfon, WhatsApp o a un comercial, que ho anota en una llibreta. Administració o Comercial ho transcriu a mà al programa o a l'Excel.</dd><dt>Rols</dt><dd>Comercial o televenda; personal administratiu</dd><dt>Departaments</dt><dd>Comercial; Administració i finances</dd><dt>Documents</dt><dd>Llibreta del comercial; full de comandes</dd><dt>Aplicacions o eines</dt><dd>Telèfon, WhatsApp, programa de facturació o Excel</dd><dt>Normatives o restriccions</dt><dd>Condicions de venda pactades</dd><dt>Informació d'entrada</dt><dd>Comanda del client (productes, quantitats i data)</dd><dt>Informació de sortida</dt><dd>Comanda registrada</dd></dl><p class="problema"><strong>Problema detectat:</strong> Errors i devolucions: la comanda es transcriu a mà.</p></article>
-<article class="activitat dep-mag"><h4><span class="num" aria-hidden="true">2</span>Estoc</h4><dl><dt>Com es fa</dt><dd>Es comprova si hi ha gènere. L'estoc està en un Excel que s'actualitza a final del dia; Compres repon segons eixe Excel.</dd><dt>Rols</dt><dd>Responsable de magatzem</dd><dt>Departaments</dt><dd>Magatzem; Compres (reposició)</dd><dt>Documents</dt><dd>Llistat d'estoc</dd><dt>Aplicacions o eines</dt><dd>Excel d'estoc, actualitzat a final del dia</dd><dt>Recursos físics</dt><dd>Nau de 1.500 m²</dd><dt>Materials</dt><dd>Palets, caixes i barrils</dd><dt>Normatives o restriccions</dt><dd>Traçabilitat de lots i caducitats</dd><dt>Informació d'entrada</dt><dd>Comanda registrada i estoc</dd><dt>Informació de sortida</dt><dd>Confirmació de disponibilitat</dd></dl><p class="problema"><strong>Problema detectat:</strong> Ruptures d'estoc i comandes sense servir.</p></article>
-<article class="activitat dep-mag"><h4><span class="num" aria-hidden="true">3</span>Preparació</h4><dl><dt>Com es fa</dt><dd>Magatzem arreplega cada article amb l'albarà en paper i deixa la comanda a punt, agrupada per client i ruta.</dd><dt>Rols</dt><dd>Mosso de magatzem</dd><dt>Departaments</dt><dd>Magatzem</dd><dt>Documents</dt><dd>Albarà imprés</dd><dt>Aplicacions o eines</dt><dd>Paper</dd><dt>Recursos físics</dt><dd>Carretó elevador i transpalet</dd><dt>Materials</dt><dd>Caixes, palets i envasos</dd><dt>Normatives o restriccions</dt><dd>Traçabilitat i caducitats</dd><dt>Informació d'entrada</dt><dd>Albarà</dd><dt>Informació de sortida</dt><dd>Comanda preparada, agrupada per client i ruta</dd></dl><p class="problema"><strong>Problema detectat:</strong> Els errors previs apareixen ací o a casa del client.</p></article>
-<article class="activitat dep-rep"><h4><span class="num" aria-hidden="true">4</span>Rutes i lliurament</h4><dl><dt>Com es fa</dt><dd>Repartiment ix amb fulls de ruta i albarans en paper. El client signa l'albarà i les incidències s'anoten a mà.</dd><dt>Rols</dt><dd>Responsable de repartiment; conductor o conductora</dd><dt>Departaments</dt><dd>Repartiment</dd><dt>Documents</dt><dd>Full de ruta; albarà signat; vals d'envasos</dd><dt>Aplicacions o eines</dt><dd>Excel i paper</dd><dt>Recursos físics</dt><dd>12 vehicles de repartiment</dd><dt>Materials</dt><dd>Envasos retornables</dd><dt>Informació d'entrada</dt><dd>Comandes preparades i ruta</dd><dt>Informació de sortida</dt><dd>Albarà signat i envasos retornats</dd></dl><p class="problema"><strong>Problema detectat:</strong> Els albarans signats arriben tard a l'oficina.</p></article>
-<article class="activitat dep-adm"><h4><span class="num" aria-hidden="true">5</span>Facturació</h4><dl><dt>Com es fa</dt><dd>Administració rep els albarans signats, els revisa i factura amb un programa bàsic, sense connexió amb la comanda ni amb l'estoc. Els clients petits paguen en el lliurament; la majoria rep una factura mensual que agrupa els albarans del mes.</dd><dt>Rols</dt><dd>Personal administratiu</dd><dt>Departaments</dt><dd>Administració i finances</dd><dt>Documents</dt><dd>Albarans signats; factura</dd><dt>Aplicacions o eines</dt><dd>Programa bàsic de facturació</dd><dt>Normatives o restriccions</dt><dd>Facturació i IVA</dd><dt>Informació d'entrada</dt><dd>Albarans signats</dd><dt>Informació de sortida</dt><dd>Factura</dd></dl><p class="problema"><strong>Problema detectat:</strong> Factures tardanes (cal reunir tots els albarans) i creuaments manuals.</p></article>
-<article class="activitat dep-adm"><h4><span class="num" aria-hidden="true">6</span>Cobrament</h4><dl><dt>Com es fa</dt><dd>La majoria de clients paga a crèdit (per exemple, a 30 dies) per rebut domiciliat o transferència; els petits paguen en el lliurament. Administració registra cada cobrament, el concilia a mà amb les factures i revisa a mà què queda pendent.</dd><dt>Rols</dt><dd>Responsable financer</dd><dt>Departaments</dt><dd>Administració i finances</dd><dt>Documents</dt><dd>Rebut domiciliat; transferència</dd><dt>Aplicacions o eines</dt><dd>Banca en línia i Excel</dd><dt>Normatives o restriccions</dt><dd>Condicions de pagament pactades (crèdit, per exemple a 30 dies)</dd><dt>Informació d'entrada</dt><dd>Factura i extracte bancari</dd><dt>Informació de sortida</dt><dd>Cobrament registrat i saldos pendents</dd></dl><p class="problema"><strong>Problema detectat:</strong> Cobraments tardans i impagaments detectats tard.</p></article>
-    </div>
-    </div>
-
-    <div class="part" id="analisi" role="group" aria-labelledby="t-analisi">
-      <h3 id="t-analisi" data-pas="5 / 5">Anàlisi del procés i propostes de millora</h3>
-      <p class="lead">Revisem el procés tal com funciona hui (model AS-IS), n'identifiquem els problemes activitat per activitat i proposem millores de reenginyeria de processos.</p>
-
-      <h4 id="as-is">Model AS-IS</h4>
-      <p>El diagrama representa els participants (carrils), les tasques, les decisions i el flux d'una comanda. Els cercles <strong>P1 a P6</strong> assenyalen els punts on s'han detectat problemes.</p>
-      <div class="diagrama" tabindex="0" role="group" aria-label="Diagrama del model AS-IS (es pot desplaçar horitzontalment en pantalles estretes)">
-        <svg class="as-is" viewBox="0 0 920 1174" role="img" aria-labelledby="as-is-t as-is-d" xmlns="http://www.w3.org/2000/svg" font-family="DM Sans, system-ui, sans-serif"><title id="as-is-t">Model AS-IS del procés de la comanda al cobrament</title><desc id="as-is-d">Diagrama de carrils amb sis participants. La comanda del client passa per Comercial, Administració, Magatzem, Compres, Repartiment i, de nou, Administració fins que el cobrament queda registrat. Hi ha dues decisions: si hi ha estoc i si el client paga en el lliurament. Sis punts marcats P1 a P6 assenyalen els problemes detectats.</desc><defs><marker id="fletxa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#0A1F44"/></marker></defs><rect x="10" y="44" width="150" height="1130" fill="#FFFFFF" stroke="#D5DDEE"/><rect x="10" y="0" width="150" height="44" fill="#0A1F44"/><text x="85" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF"><tspan x="85" y="26.2">Client</tspan></text><rect x="160" y="44" width="150" height="1130" fill="#F4F7FD" stroke="#D5DDEE"/><rect x="160" y="0" width="150" height="44" fill="#0A1F44"/><text x="235" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF"><tspan x="235" y="18.7">Comercial</tspan><tspan x="235" y="33.7">televenda</tspan></text><rect x="310" y="44" width="150" height="1130" fill="#FFFFFF" stroke="#D5DDEE"/><rect x="310" y="0" width="150" height="44" fill="#0A1F44"/><text x="385" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF"><tspan x="385" y="18.7">Administració i</tspan><tspan x="385" y="33.7">finances</tspan></text><rect x="460" y="44" width="150" height="1130" fill="#F4F7FD" stroke="#D5DDEE"/><rect x="460" y="0" width="150" height="44" fill="#0A1F44"/><text x="535" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF"><tspan x="535" y="26.2">Compres</tspan></text><rect x="610" y="44" width="150" height="1130" fill="#FFFFFF" stroke="#D5DDEE"/><rect x="610" y="0" width="150" height="44" fill="#0A1F44"/><text x="685" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF"><tspan x="685" y="26.2">Magatzem</tspan></text><rect x="760" y="44" width="150" height="1130" fill="#F4F7FD" stroke="#D5DDEE"/><rect x="760" y="0" width="150" height="44" fill="#0A1F44"/><text x="835" text-anchor="middle" font-size="12" font-weight="700" fill="#FFFFFF"><tspan x="835" y="26.2">Repartiment</tspan></text><circle cx="85" cy="92" r="13" fill="#FFFFFF" stroke="#0A1F44" stroke-width="2"/><text x="106" text-anchor="start" font-size="12" font-weight="700" fill="#0A1F44"><tspan x="106" y="96.2">Inici</tspan></text><rect x="15" y="151" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="85" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="85" y="173.2">Fa la comanda per</tspan><tspan x="85" y="188.2">telèfon, WhatsApp o</tspan><tspan x="85" y="203.2">a un comercial</tspan></text><rect x="165" y="243" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="235" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="235" y="272.7">Anota la comanda</tspan><tspan x="235" y="287.7">en una llibreta</tspan></text><rect x="315" y="335" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="385" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="385" y="357.2">Transcriu la comanda</tspan><tspan x="385" y="372.2">al programa o</tspan><tspan x="385" y="387.2">a l'Excel</tspan></text><circle cx="453" cy="337" r="12" fill="#9A5B00"/><text x="453" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF"><tspan x="453" y="340.5">P1</tspan></text><rect x="615" y="427" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="685" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="685" y="449.2">Comprova l'estoc</tspan><tspan x="685" y="464.2">a l'Excel</tspan><tspan x="685" y="479.2">(final del dia)</tspan></text><circle cx="753" cy="429" r="12" fill="#9A5B00"/><text x="753" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF"><tspan x="753" y="432.5">P2</tspan></text><polygon points="685,516 735,552 685,588 635,552" fill="#DCE6FF" stroke="#1D44C8" stroke-width="1.6"/><text x="685" text-anchor="middle" font-size="11" font-weight="700" fill="#0A1F44"><tspan x="685" y="548.9">Hi ha</tspan><tspan x="685" y="562.9">estoc?</tspan></text><rect x="465" y="519" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="535" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="535" y="548.7">Compres repon</tspan><tspan x="535" y="563.7">segons l'Excel</tspan></text><rect x="615" y="611" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="685" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="685" y="633.2">Prepara la comanda</tspan><tspan x="685" y="648.2">amb l'albarà</tspan><tspan x="685" y="663.2">en paper</tspan></text><circle cx="753" cy="613" r="12" fill="#9A5B00"/><text x="753" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF"><tspan x="753" y="616.5">P3</tspan></text><rect x="765" y="703" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="835" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="835" y="725.2">Lliura amb full de</tspan><tspan x="835" y="740.2">ruta; el client signa</tspan><tspan x="835" y="755.2">l'albarà en paper</tspan></text><circle cx="903" cy="705" r="12" fill="#9A5B00"/><text x="903" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF"><tspan x="903" y="708.5">P4</tspan></text><polygon points="835,792 885,828 835,864 785,828" fill="#DCE6FF" stroke="#1D44C8" stroke-width="1.6"/><text x="835" text-anchor="middle" font-size="11" font-weight="700" fill="#0A1F44"><tspan x="835" y="824.9">Paga en el</tspan><tspan x="835" y="838.9">lliurament?</tspan></text><rect x="315" y="887" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="385" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="385" y="909.2">Revisa els albarans</tspan><tspan x="385" y="924.2">signats i factura amb</tspan><tspan x="385" y="939.2">el programa bàsic</tspan></text><circle cx="453" cy="889" r="12" fill="#9A5B00"/><text x="453" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF"><tspan x="453" y="892.5">P5</tspan></text><rect x="315" y="979" width="140" height="66" rx="4" fill="#FFFFFF" stroke="#1D44C8" stroke-width="1.6"/><text x="385" text-anchor="middle" font-size="12" font-weight="400" fill="#0A1F44"><tspan x="385" y="1001.2">Registra el cobrament</tspan><tspan x="385" y="1016.2">i el concilia a mà;</tspan><tspan x="385" y="1031.2">revisa els pendents</tspan></text><circle cx="453" cy="981" r="12" fill="#9A5B00"/><text x="453" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF"><tspan x="453" y="984.5">P6</tspan></text><circle cx="385" cy="1104" r="13" fill="#FFFFFF" stroke="#0A1F44" stroke-width="4"/><text x="385" text-anchor="middle" font-size="12" font-weight="700" fill="#0A1F44"><tspan x="385" y="1130.7">Fi: cobrament</tspan><tspan x="385" y="1145.7">registrat</tspan></text><path d="M85,105 L85,151" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M85,217 L85,230 L235,230 L235,243" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M235,309 L235,322 L385,322 L385,335" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M385,401 L385,414 L685,414 L685,427" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M685,493 L685,516" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M635,552 L605,552" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><text x="619" text-anchor="middle" font-size="12" font-weight="700" fill="#1D44C8"><tspan x="619" y="548.2">No</tspan></text><path d="M685,588 L685,611" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><text x="699" text-anchor="middle" font-size="12" font-weight="700" fill="#1D44C8"><tspan x="699" y="606.2">Sí</tspan></text><path d="M535,585 L535,644 L615,644" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M685,677 L685,690 L835,690 L835,703" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M835,769 L835,792" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M835,864 L835,875 L385,875 L385,887" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><text x="849" text-anchor="middle" font-size="12" font-weight="700" fill="#1D44C8"><tspan x="849" y="884.2">No</tspan></text><path d="M785,828 L560,828 L560,1012 L455,1012" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><text x="769" text-anchor="middle" font-size="12" font-weight="700" fill="#1D44C8"><tspan x="769" y="824.2">Sí</tspan></text><path d="M385,953 L385,979" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/><path d="M385,1045 L385,1091" fill="none" stroke="#0A1F44" stroke-width="1.6" marker-end="url(#fletxa)"/></svg>
-      </div>
-      <details class="text-alt">
-        <summary>Descripció del model en text</summary>
-        <ol><li>El client fa la comanda per telèfon, WhatsApp o a un comercial. <span class="nota">(Client)</span></li><li>El comercial o televenda l'anota en una llibreta. <span class="nota">(Comercial)</span></li><li>Administració o Comercial la transcriu a mà al programa o a l'Excel. <span class="nota">(Administració i finances)</span></li><li>Magatzem comprova l'estoc en un Excel que només s'actualitza a final del dia. <span class="nota">(Magatzem)</span></li><li>Decisió: si hi ha estoc, es prepara la comanda; si no, Compres repon segons eixe Excel i, quan arriba el gènere, es prepara. <span class="nota">(Magatzem · Compres)</span></li><li>Magatzem prepara la comanda amb l'albarà en paper, agrupada per client i ruta. <span class="nota">(Magatzem)</span></li><li>Repartiment ix amb fulls de ruta i albarans en paper; el client signa l'albarà i les incidències s'anoten a mà. <span class="nota">(Repartiment)</span></li><li>Decisió: els clients petits paguen en el lliurament; la majoria rep una factura mensual. <span class="nota">(Repartiment · Administració)</span></li><li>Administració rep els albarans signats, els revisa i factura amb un programa bàsic. <span class="nota">(Administració i finances)</span></li><li>Administració registra cada cobrament, el concilia a mà amb les factures i revisa a mà què queda pendent. <span class="nota">(Administració i finances)</span></li></ol>
-      </details>
-
-      <h4 id="problemes">Identificació de problemes</h4>
-      <p>Revisem cada activitat per comprovar si es fa correctament, quins problemes presenta i on cal prendre decisions amb informació fiable. Primer, l'anàlisi de cada part del procés:</p>
-      <div class="analisi">
-        <article><h5>P1 · Comanda i registre</h5><p>La comanda entra per tres canals (telèfon, WhatsApp o un comercial) i queda anotada en una llibreta; després Administració o Comercial la transcriu a mà al programa o a l'Excel. El pas no es fa de manera correcta: la mateixa dada s'escriu dues vegades i qualsevol error de transcripció arriba fins al lliurament, amb devolucions i clients enfadats.</p></article>
-        <article><h5>P2 · Estoc</h5><p>Es comprova si hi ha gènere consultant un Excel que només s'actualitza a final del dia, de manera que la dada no és fiable durant la jornada. Ací hi ha una decisió clau (si hi ha estoc es prepara la comanda; si no, Compres repon) que es pren amb informació antiga.</p></article>
-        <article><h5>P3 · Preparació</h5><p>Magatzem arreplega els articles amb l'albarà en paper i agrupa la comanda per client i ruta. No hi ha cap comprovació final, de manera que els errors de les etapes anteriors apareixen ací o directament a casa del client.</p></article>
-        <article><h5>P4 · Rutes i lliurament</h5><p>Repartiment ix amb fulls de ruta i albarans en paper; el client signa l'albarà i les incidències s'anoten a mà. Els albarans signats arriben tard a l'oficina, la qual cosa retarda tota la facturació posterior. També és un punt de decisió: els clients petits paguen en el lliurament i la resta rep una factura mensual.</p></article>
-        <article><h5>P5 · Facturació</h5><p>Administració rep els albarans signats, els revisa i factura amb un programa bàsic, sense connexió amb la comanda ni amb l'estoc. La majoria de clients rep una factura mensual que agrupa els albarans del mes; cal reunir-los tots abans de facturar i creuar-los a mà amb la comanda.</p></article>
-        <article><h5>P6 · Cobrament</h5><p>La majoria de clients paga a crèdit (per exemple, a 30 dies) per rebut domiciliat o transferència. Administració registra cada cobrament, el concilia a mà amb les factures i revisa a mà què queda pendent. Els impagaments es detecten tard, i la direcció depèn de dues persones d'Administració, les úniques que entenen els Excels, per saber el marge o la morositat.</p></article>
-        </div>
-      <p>El resum de la revisió, amb el mateix identificador que els punts marcats al model AS-IS:</p>
-      <div class="taula">
-        <table>
-          <caption class="sr-only">Problemes detectats en cada activitat i conseqüència per a l'empresa</caption>
-          <thead><tr><th scope="col">Activitat</th><th scope="col">Problema detectat</th><th scope="col">Conseqüència</th></tr></thead>
-          <tbody>
-          <tr><th scope="row">P1 · Comanda i registre</th><td data-label="Problema detectat">Transcripció manual i doble introducció de la comanda</td><td data-label="Conseqüència">Errors de producte o quantitat, devolucions i clients enfadats.</td></tr>
-          <tr><th scope="row">P2 · Estoc</th><td data-label="Problema detectat">Estoc en Excel, actualitzat a final del dia</td><td data-label="Conseqüència">Ruptures d'estoc no detectades i comandes que no es poden servir.</td></tr>
-          <tr><th scope="row">P3 · Preparació</th><td data-label="Problema detectat">Preparació sense comprovació final, amb l'albarà en paper</td><td data-label="Conseqüència">Els errors arriben al client i provoquen devolucions.</td></tr>
-          <tr><th scope="row">P4 · Rutes i lliurament</th><td data-label="Problema detectat">Albarans signats en paper que arriben tard a Administració</td><td data-label="Conseqüència">Factures amb dies o setmanes de retard i cobraments endarrerits.</td></tr>
-          <tr><th scope="row">P5 · Facturació</th><td data-label="Problema detectat">Factures tardanes i creuaments manuals entre comanda, albarà i factura</td><td data-label="Conseqüència">Facturació endarrerida i risc de discrepàncies amb l'albarà.</td></tr>
-          <tr><th scope="row">P6 · Cobrament</th><td data-label="Problema detectat">Conciliació i seguiment de pendents fets a mà</td><td data-label="Conseqüència">Impagaments detectats tard, deute acumulat i més risc de morositat.</td></tr>
-          </tbody>
-        </table>
-      </div>
-
-      <h4 id="millores">Propostes de millora</h4>
-      <p>Per a cada activitat proposem almenys una millora, aplicant els principis de reenginyeria de processos (BPR) i les categories de Tallyfy (2020), <a href="https://tallyfy.com/business-process-improvement-ideas/" target="_blank" rel="noopener noreferrer">«8 Practical Business Process Improvement Ideas»</a>. Cada millora resol el problema amb el mateix número (M1 respon a P1, i així successivament).</p>
-      <div class="analisi">
-        <article><h5>M1 · Comanda i registre <span class="cat">Resolució de problemes</span></h5><p><strong>Una sola introducció de la comanda.</strong> El comercial (des del mòbil o la tauleta) o televenda introdueix la comanda directament al sistema. Desapareixen la llibreta i la transcripció a mà.</p><p><em>Per què:</em> S'elimina un pas redundant que només servia per repetir una dada i s'evita la principal font d'errors i devolucions.</p></article>
-        <article><h5>M2 · Estoc <span class="cat">Adopció de TIC</span></h5><p><strong>Estoc actualitzat en temps real amb avís de reposició.</strong> Cada moviment (entrada de gènere, preparació, devolució) actualitza l'estoc automàticament, i el sistema avisa Compres quan un article baixa del mínim.</p><p><em>Per què:</em> La decisió «hi ha estoc?» es pren amb informació actual, es redueixen les ruptures i Compres repon abans que falte el producte.</p></article>
-        <article><h5>M3 · Preparació <span class="cat">Anàlisi i millora</span></h5><p><strong>Procediment únic de preparació amb comprovació final.</strong> Tot el personal de magatzem treballa amb una mateixa llista de preparació, ordenada per ruta i ubicació, i la comanda es comprova abans de carregar-la.</p><p><em>Per què:</em> Estandarditzar la manera de preparar evita que cada persona ho faça diferent i detecta els errors al magatzem, abans que arriben al client.</p></article>
-        <article><h5>M4 · Rutes i lliurament <span class="cat">Resolució de problemes</span></h5><p><strong>Albarà de lliurament digital.</strong> El client signa en un dispositiu mòbil del conductor i l'albarà arriba al sistema en el mateix moment. Ja no cal dur els albarans en paper a l'oficina.</p><p><em>Per què:</em> Elimina el coll d'ampolla de l'albarà que arriba tard i permet facturar i cobrar sense esperar el paper.</p></article>
-        <article><h5>M5 · Facturació <span class="cat">Adopció de TIC</span></h5><p><strong>Factura generada a partir de l'albarà confirmat.</strong> La factura (també la mensual, que agrupa els albarans del mes) es genera al mateix sistema a partir de l'albarà confirmat, vinculada a la comanda i a l'estoc.</p><p><em>Per què:</em> Aprofita la facturació estàndard d'un ERP: no cal reunir els albarans ni creuar-los a mà, i la factura és coherent amb la comanda.</p></article>
-        <article><h5>M6 · Cobrament <span class="cat">Noves necessitats</span></h5><p><strong>Quadre de control de cobraments i marge per client.</strong> La direcció consulta saldos pendents, avisos d'impagament i marge per client i producte sense demanar-los a Administració.</p><p><em>Per què:</em> Respon a l'estratègia (fidelitzar, créixer sense ampliar la plantilla, menys paper i menys Excel) i a les preocupacions de la direcció: detectar abans els impagaments i conéixer el marge.</p></article>
-        </div>
-      <p>Resum de les millores i de la categoria a què pertanyen:</p>
-      <div class="taula">
-        <table>
-          <caption class="sr-only">Millores proposades per activitat, problema que resolen i categoria de millora</caption>
-          <thead><tr><th scope="col">Activitat</th><th scope="col">Problema</th><th scope="col">Millora proposada</th><th scope="col">Categoria</th></tr></thead>
-          <tbody>
-          <tr><th scope="row">M1 · Comanda i registre</th><td data-label="Problema">P1</td><td data-label="Millora proposada">Una sola introducció de la comanda</td><td data-label="Categoria">2. Resolució de problemes <span class="nota">(Eliminar tasques redundants)</span></td></tr>
-          <tr><th scope="row">M2 · Estoc</th><td data-label="Problema">P2</td><td data-label="Millora proposada">Estoc actualitzat en temps real amb avís de reposició</td><td data-label="Categoria">4. Adopció de programari o TIC <span class="nota">(Automatització)</span></td></tr>
-          <tr><th scope="row">M3 · Preparació</th><td data-label="Problema">P3</td><td data-label="Millora proposada">Procediment únic de preparació amb comprovació final</td><td data-label="Categoria">1. Anàlisi i millora <span class="nota">(Estandarditzar el procés)</span></td></tr>
-          <tr><th scope="row">M4 · Rutes i lliurament</th><td data-label="Problema">P4</td><td data-label="Millora proposada">Albarà de lliurament digital</td><td data-label="Categoria">2. Resolució de problemes <span class="nota">(Eliminar documentació i passos innecessaris)</span></td></tr>
-          <tr><th scope="row">M5 · Facturació</th><td data-label="Problema">P5</td><td data-label="Millora proposada">Factura generada a partir de l'albarà confirmat</td><td data-label="Categoria">4. Adopció de programari o TIC <span class="nota">(Adaptació a la funcionalitat del programari)</span></td></tr>
-          <tr><th scope="row">M6 · Cobrament</th><td data-label="Problema">P6</td><td data-label="Millora proposada">Quadre de control de cobraments i marge per client</td><td data-label="Categoria">3. Noves necessitats del negoci <span class="nota">(Estratègia de l'empresa)</span></td></tr>
-          </tbody>
-        </table>
-      </div>
-      <p>Les quatre categories queden cobertes:</p>
-      <ul class="llista"><li><strong>1. Anàlisi i millora:</strong> M3</li><li><strong>2. Resolució de problemes:</strong> M1, M4</li><li><strong>3. Noves necessitats del negoci:</strong> M6</li><li><strong>4. Adopció de programari o TIC:</strong> M2, M5</li></ul>
+    <div class="enllacos">
+      <a class="targeta-enllac" href="cas.html">
+        <span class="etiq">Pàgina 1</span>
+        <strong>El client i el procés</strong>
+        <span>L'empresa, l'estructura, el procés de la comanda al cobrament i les seues activitats.</span>
+      </a>
+      <a class="targeta-enllac" href="analisi.html">
+        <span class="etiq">Pàgina 2</span>
+        <strong>Anàlisi i millora</strong>
+        <span>El model AS-IS, els problemes detectats i les propostes de millora.</span>
+      </a>
     </div>
   </div>
 </section>
