@@ -223,15 +223,6 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
   .part { scroll-margin-top: 4.5rem; }
 }
 
-/* Model AS-IS */
-.diagrama { overflow-x: auto; border: 1px solid var(--line); background: var(--blanc); margin: 1rem 0 1.2rem; }
-.diagrama:focus-visible { outline-offset: 0; }
-.as-is { display: block; width: 100%; min-width: 760px; height: auto; }
-.text-alt { margin-bottom: 1.5rem; }
-.text-alt summary { cursor: pointer; font-weight: 700; color: var(--primary); }
-.text-alt ol { margin-top: .8rem; padding-left: 1.2rem; }
-.text-alt li { margin-bottom: .5rem; }
-
 /* Anàlisi per activitat */
 .analisi { margin: 1rem 0 1.5rem; }
 .analisi article { border-top: 1px solid var(--line); padding: .9rem 0 .2rem; }
