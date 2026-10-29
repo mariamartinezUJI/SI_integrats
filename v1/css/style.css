@@ -229,4 +229,10 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .text-alt ol { margin-top: .8rem; padding-left: 1.2rem; }
 .text-alt li { margin-bottom: .5rem; }
 
+/* Anàlisi per activitat */
+.analisi { margin: 1rem 0 1.5rem; }
+.analisi article { border-top: 1px solid var(--line); padding: .9rem 0 .2rem; }
+.analisi h5 { margin-bottom: .3rem; }
+.analisi p { margin-bottom: .8rem; max-width: 46rem; }
+
 @media print { .capcalera, .salta { display: none; } }
