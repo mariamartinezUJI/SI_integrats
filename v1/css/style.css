@@ -282,3 +282,15 @@ tr.total th, tr.total td { border-top: 2px solid var(--ink); font-weight: 700; }
 .activitat .acord summary .cat { color: var(--c); }
 
 @media print { .capcalera, .salta { display: none; } }
+
+/* Taules i figures numerades, referències */
+caption { caption-side: top; text-align: left; font-size: .85rem; color: var(--text); padding: 0 0 .6rem; }
+caption strong, .figura figcaption strong { color: var(--ink); }
+.figura { margin: 0 0 1.5rem; }
+.figura figcaption { font-size: .85rem; color: var(--text); margin-top: .2rem; }
+.refs { padding-left: 1.3rem; font-size: .95rem; }
+.refs li { margin-bottom: .5rem; }
+@media (max-width: 699px) { caption { display: block; } }
+.diagrama { overflow-x: auto; border: 1px solid var(--line); background: #fff; }
+.bpmn { display: block; width: 100%; min-width: 1500px; height: auto; }
+.part, .figura { min-width: 0; }

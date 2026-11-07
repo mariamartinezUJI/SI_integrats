@@ -50,12 +50,14 @@
         <ol>
           <li><a href="#problemes">Problemes</a></li>
           <li><a href="#millores">Millores</a></li>
+          <li><a href="#to-be">Model TO-BE</a></li>
+          <li><a href="#referencies">Referències</a></li>
         </ol>
       </nav>
     </div>
 
     <div class="part" id="problemes" role="group" aria-labelledby="t-problemes">
-      <h3 id="t-problemes" data-pas="Anàlisi · 1 / 2">Identificació de problemes</h3>
+      <h3 id="t-problemes" data-pas="Anàlisi · 1 / 3">Identificació de problemes</h3>
       <p>Revisem cada activitat per comprovar si es fa correctament, quins problemes presenta i on cal prendre decisions amb informació fiable. Cada fila mostra el problema; en obrir-la, l'anàlisi completa.</p>
       <div class="acords" data-acords>
         <p class="eines-acord"><button type="button" class="btn-text" data-desplega>Desplega-ho tot</button></p>
@@ -87,7 +89,7 @@
       <h4>Resum dels problemes</h4>
       <div class="taula">
         <table>
-          <caption class="sr-only">Problemes detectats en cada activitat i conseqüència per a l'empresa</caption>
+          <caption><strong>Taula 3.</strong> Problemes detectats en cada activitat i conseqüència per a l'empresa</caption>
           <thead><tr><th scope="col">Activitat</th><th scope="col">Problema detectat</th><th scope="col">Conseqüència</th></tr></thead>
           <tbody>
           <tr><th scope="row">P1 · Comanda i registre</th><td data-label="Problema detectat">Transcripció manual i doble introducció de la comanda</td><td data-label="Conseqüència">Errors de producte o quantitat, devolucions i clients enfadats.</td></tr>
@@ -102,7 +104,7 @@
     </div>
 
     <div class="part" id="millores" role="group" aria-labelledby="t-millores">
-      <h3 id="t-millores" data-pas="Anàlisi · 2 / 2">Propostes de millora</h3>
+      <h3 id="t-millores" data-pas="Anàlisi · 2 / 3">Propostes de millora</h3>
       <p>Per a cada activitat proposem almenys una millora, aplicant els principis de reenginyeria de processos (BPR) i les categories de Tallyfy (2020), <a href="https://tallyfy.com/business-process-improvement-ideas/" target="_blank" rel="noopener noreferrer">«8 Practical Business Process Improvement Ideas»</a>. Cada millora resol el problema amb el mateix número (M1 respon a P1, i així successivament).</p>
       <div class="acords" data-acords>
         <p class="eines-acord"><button type="button" class="btn-text" data-desplega>Desplega-ho tot</button></p>
@@ -134,7 +136,7 @@
       <h4>Resum de les millores</h4>
       <div class="taula">
         <table>
-          <caption class="sr-only">Millores proposades per activitat, problema que resolen i categoria de millora</caption>
+          <caption><strong>Taula 4.</strong> Millores proposades per activitat, problema que resolen i categoria de millora</caption>
           <thead><tr><th scope="col">Activitat</th><th scope="col">Problema</th><th scope="col">Millora proposada</th><th scope="col">Categoria</th></tr></thead>
           <tbody>
           <tr><th scope="row">M1 · Comanda i registre</th><td data-label="Problema">P1</td><td data-label="Millora proposada">Una sola introducció de la comanda</td><td data-label="Categoria">2. Resolució de problemes <span class="nota">(Eliminar tasques redundants)</span></td></tr>
@@ -150,6 +152,33 @@
       <ul class="llista"><li><strong>1. Anàlisi i millora:</strong> M3</li><li><strong>2. Resolució de problemes:</strong> M1, M4</li><li><strong>3. Noves necessitats del negoci:</strong> M6</li><li><strong>4. Adopció de programari o TIC:</strong> M2, M5</li></ul>
     </div>
 
+    <div class="part" id="to-be" role="group" aria-labelledby="t-to-be">
+      <h3 id="t-to-be" data-pas="Anàlisi · 3 / 3">Model TO-BE</h3>
+      <p>El procés millorat, modelat en BPMN 2.0 amb Camunda. Cada carril és un departament de l'empresa; el client és un participant extern que es comunica amb missatges. El model incorpora les millores M1 a M6.</p>
+      <p><strong>Activitats amb suport de l'ERP:</strong> les tasques en blau. La icona de dalt a l'esquerra indica el tipus:</p>
+      <ul class="llista">
+        <li><strong>Tasca d'usuari:</strong> una persona la fa amb l'ERP.</li>
+        <li><strong>Tasca de servei:</strong> la fa l'ERP automàticament.</li>
+        <li><strong>Tasca d'enviament:</strong> l'ERP envia un missatge al client.</li>
+        <li><strong>Tasca manual:</strong> una persona la fa sense cap sistema (en blanc).</li>
+      </ul>
+      <figure class="figura">
+        <div class="diagrama" tabindex="0" role="group" aria-label="Model TO-BE (es pot desplaçar horitzontalment)">
+          <img class="bpmn" src="img/to-be.svg" alt="Model TO-BE en BPMN 2.0 del procés de la comanda al cobrament, amb el participant Client i els carrils Comercial, Magatzem, Compres, Repartiment i Administració i finances" width="2890" height="1030">
+        </div>
+        <figcaption><strong>Figura 3.</strong> Model TO-BE del procés de la comanda al cobrament. <a href="img/to-be.svg" target="_blank" rel="noopener">Obri la imatge a mida completa</a></figcaption>
+      </figure>
+    </div>
+
+    <div class="part" id="referencies" role="group" aria-labelledby="t-referencies">
+      <h3 id="t-referencies" data-pas="Fonts">Referències</h3>
+      <ol class="refs">
+        <li>Universitat Jaume I (2026). <em>EI1046/MT1046 Sistemes d'Informació Integrats</em>. Materials de teoria i de pràctiques, curs 2026/2027.</li>
+        <li>Object Management Group (2011). <em>Business Process Model and Notation (BPMN), versió 2.0</em>. <a href="https://www.omg.org/spec/BPMN/2.0/" target="_blank" rel="noopener noreferrer">omg.org/spec/BPMN/2.0</a></li>
+        <li>Tallyfy (2020). <em>8 Practical Business Process Improvement Ideas</em>. <a href="https://tallyfy.com/business-process-improvement-ideas/" target="_blank" rel="noopener noreferrer">tallyfy.com</a></li>
+        <li>Camunda. <em>Camunda Modeler</em>, eina de modelització BPMN. <a href="https://camunda.com/platform/modeler/" target="_blank" rel="noopener noreferrer">camunda.com</a></li>
+      </ol>
+    </div>
 
   <nav class="pager" aria-label="Navegació entre pàgines">
     <a href="cas.html" rel="prev">← El client i el procés</a>
